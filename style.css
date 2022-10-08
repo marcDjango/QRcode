@@ -24,7 +24,7 @@ body{
     background-color: #fff;
 }
 .img{
-background: url(/qr-code-component-main/qr-code-component-main/images/image-qr-code.png) no-repeat;
+background: url(/image-qr-code.png) no-repeat;
 height: 235px;
 width: 235px;
 margin: 12px;
