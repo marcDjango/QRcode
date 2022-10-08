@@ -1,0 +1,62 @@
+
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(220, 65%, 90%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 400px;
+    width: 260px;
+    box-shadow: 0px 16px 14px 0px rgba(0,0,0,0.05);
+    border-radius: 20px;
+    background-color: #fff;
+}
+.img{
+background: url(/qr-code-component-main/qr-code-component-main/images/image-qr-code.png) no-repeat;
+height: 235px;
+width: 235px;
+margin: 12px;
+background-size: contain;
+border-radius: 10px;
+}
+.text1 {
+  /* margin-top: 17px;
+  margin-left: 20px;
+  margin-right: 20px; */
+  margin: 17px 20px 0 20px;
+}
+.text1 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+.text2 {
+margin-top: 12px;
+padding: 0 17px ;
+font-size: 13px;
+font-weight: 400;
+text-align: center;
+color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    }
+.attribution a { color: hsl(228, 45%, 44%); }
