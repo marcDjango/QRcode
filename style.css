@@ -24,7 +24,7 @@ body{
     background-color: #fff;
 }
 .img{
-background: url(https://marcdjango.github.io/QRcode/image-qr-code.png) no-repeat;
+background: url(/QRcode/image-qr-code.png) no-repeat;
 height: 235px;
 width: 235px;
 margin: 12px;
@@ -32,9 +32,6 @@ background-size: contain;
 border-radius: 10px;
 }
 .text1 {
-  /* margin-top: 17px;
-  margin-left: 20px;
-  margin-right: 20px; */
   margin: 17px 20px 0 20px;
 }
 .text1 {
